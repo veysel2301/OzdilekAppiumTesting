@@ -1,0 +1,29 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.CleanerJava6).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (16) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 1571milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1571"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51866"}
+{"logLevel":"info","message":"Listening on port:51866"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'OzdilekApp.click' and 'OzdilekApp.click'"}
+{"logLevel":"debug","message":"Found {} idli popup'ı sil ve alışverişe tıkla  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'OzdilekApp.waitForsecond' and 'OzdilekApp.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'OzdilekApp.clickElementByid' and 'OzdilekApp.clickElementByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} idli popup'ı sil ve alışverişe tıkla  : public void click(String key)"}
+{"logLevel":"debug","message":"\t{} İd'li elemente tıkla : public void clickElementByid(String Key)"}
+{"logLevel":"debug","message":"\t{} kadar bekle : public void waitForsecond(ınt second) throws InterruptedException"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

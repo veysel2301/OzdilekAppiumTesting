@@ -1,0 +1,90 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (14) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 1419milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1419"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49995"}
+{"logLevel":"info","message":"Listening on port:49995"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'OzdilekApp.swipeUpI' and 'OzdilekApp.swipeUpI'"}
+{"logLevel":"debug","message":"Found Sayfayı yukarı kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'OzdilekApp.dogrulaXpath' and 'OzdilekApp.dogrulaXpath'"}
+{"logLevel":"debug","message":"Found Elementi xpath {} bul ve {} değerini kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'OzdilekApp.waitForsecond' and 'OzdilekApp.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'OzdilekApp.clickElementByid' and 'OzdilekApp.clickElementByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'OzdilekApp.dogrula' and 'OzdilekApp.dogrula'"}
+{"logLevel":"debug","message":"Found Elementi {} bul ve {} değerini kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'OzdilekApp.clickElementBackButton' and 'OzdilekApp.clickElementBackButton'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente 2 kez tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'OzdilekApp.clickElementXpath' and 'OzdilekApp.clickElementXpath'"}
+{"logLevel":"debug","message":"Found {} xpathli elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'OzdilekApp.SendkeyElementByid' and 'OzdilekApp.SendkeyElementByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'OzdilekApp.randomClick' and 'OzdilekApp.randomClick'"}
+{"logLevel":"debug","message":"Found Rastgele ürün seç ve {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} xpathli elemente tıkla : public void clickElementXpath(String xpath)"}
+{"logLevel":"debug","message":"\tElementi xpath {} bul ve {} değerini kontrol et : public void dogrulaXpath(String key, String keyword)"}
+{"logLevel":"debug","message":"\tSayfayı yukarı kaydır : public void swipeUpI()"}
+{"logLevel":"debug","message":"\t{} İd'li elemente 2 kez tıkla : public void clickElementBackButton(String Key)"}
+{"logLevel":"debug","message":"\tElementi {} bul ve {} değerini kontrol et : public void dogrula(String key, String keyword)"}
+{"logLevel":"debug","message":"\t{} İd'li elemente tıkla : public void clickElementByid(String Key)"}
+{"logLevel":"debug","message":"\t{} kadar bekle : public void waitForsecond(ınt second) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} İd'li elemente {} değerini yaz : public void SendkeyElementByid(String Key, String keywordc)"}
+{"logLevel":"debug","message":"\tRastgele ürün seç ve {} saniye bekle : public void randomClick(ınt second) throws InterruptedException"}
+Ozdilekteyim mobil app i test icin ayağa kalkti
+May 23, 2022 7:41:32 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} kadar bekle' using 'class OzdilekApp.waitForsecond"}
+May 23, 2022 7:41:36 PM OzdilekApp waitForsecond
+INFO: Belirtilen saniye kadar bekletildi
+{"logLevel":"debug","message":"Executing 'Elementi {} bul ve {} değerini kontrol et' using 'class OzdilekApp.dogrula"}
+Text değeri Evet
+{"logLevel":"debug","message":"Executing '{} kadar bekle' using 'class OzdilekApp.waitForsecond"}
+May 23, 2022 7:41:39 PM OzdilekApp waitForsecond
+INFO: Belirtilen saniye kadar bekletildi
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class OzdilekApp.clickElementByid"}
+May 23, 2022 7:41:39 PM OzdilekApp clickElementByid
+INFO: idli elemente tıklama başarılı
+{"logLevel":"debug","message":"Executing '{} kadar bekle' using 'class OzdilekApp.waitForsecond"}
+May 23, 2022 7:41:42 PM OzdilekApp waitForsecond
+INFO: Belirtilen saniye kadar bekletildi
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class OzdilekApp.clickElementByid"}
+May 23, 2022 7:41:42 PM OzdilekApp clickElementByid
+INFO: idli elemente tıklama başarılı
+{"logLevel":"debug","message":"Executing '{} kadar bekle' using 'class OzdilekApp.waitForsecond"}
+May 23, 2022 7:41:45 PM OzdilekApp waitForsecond
+INFO: Belirtilen saniye kadar bekletildi
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class OzdilekApp.clickElementByid"}
+May 23, 2022 7:41:45 PM OzdilekApp clickElementByid
+INFO: idli elemente tıklama başarılı
+{"logLevel":"debug","message":"Executing '{} kadar bekle' using 'class OzdilekApp.waitForsecond"}
+May 23, 2022 7:41:48 PM OzdilekApp waitForsecond
+INFO: Belirtilen saniye kadar bekletildi
+{"logLevel":"debug","message":"Executing 'Elementi {} bul ve {} değerini kontrol et' using 'class OzdilekApp.dogrula"}
+Text değeri Kategoriler
+{"logLevel":"debug","message":"Executing '{} kadar bekle' using 'class OzdilekApp.waitForsecond"}
+May 23, 2022 7:41:51 PM OzdilekApp waitForsecond
+INFO: Belirtilen saniye kadar bekletildi
+{"logLevel":"debug","message":"Executing '{} xpathli elemente tıkla' using 'class OzdilekApp.clickElementXpath"}
+{"logLevel":"debug","message":"Executing '{} kadar bekle' using 'class OzdilekApp.waitForsecond"}
+May 23, 2022 7:41:54 PM OzdilekApp waitForsecond
+INFO: Belirtilen saniye kadar bekletildi
+{"logLevel":"debug","message":"Executing '{} xpathli elemente tıkla' using 'class OzdilekApp.clickElementXpath"}
+{"logLevel":"debug","message":"Executing '{} kadar bekle' using 'class OzdilekApp.waitForsecond"}
+May 23, 2022 7:41:57 PM OzdilekApp waitForsecond
+INFO: Belirtilen saniye kadar bekletildi
+{"logLevel":"debug","message":"Executing 'Sayfayı yukarı kaydır' using 'class OzdilekApp.swipeUpI"}
+Telefon Boyutu (1440, 2872)
+pointOptionStart io.appium.java_client.touch.offset.PointOption@789e2619
+pointOptionEnd io.appium.java_client.touch.offset.PointOption@4b69f90b
+{"logLevel":"debug","message":"Executing '{} kadar bekle' using 'class OzdilekApp.waitForsecond"}
